@@ -1,0 +1,7 @@
+START Script2 version 0.32
+TEXT
+SPEAKING 이민수 0 2000
+(아 비명 소리가 들린다.
+옥상에서 들리는 것 같다.)
+TEXT_END
+TEXT_END

@@ -1,0 +1,8 @@
+START Script2 version 0.32
+TEXT
+SPEAKING 이민수 0
+막 교무실 정문에 도착했다.
+교무실 문은 아까전에 잠겨져 있었는데 
+지금은 열려 있는 것 같다.
+TEXT_END
+TEXT_END

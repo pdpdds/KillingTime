@@ -1,0 +1,8 @@
+START Script2 version 0.32
+TEXT
+SPEAKING 이민수 0
+민준혁씨가 왔었다고 생각되는 화장실에
+와봤지만 특이할만한 것은 없다고
+생각된다. 응? 구석에 뭔가가 있다.
+TEXT_END
+TEXT_END

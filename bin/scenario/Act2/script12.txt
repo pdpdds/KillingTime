@@ -1,0 +1,7 @@
+START Script2 version 0.32
+TEXT
+SPEAKING 이민수 0 2001
+아 이건 수업 시작 종소린데..
+교무실에 누가 있는건가?
+TEXT_END
+TEXT_END

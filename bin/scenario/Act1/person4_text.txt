@@ -1,0 +1,8 @@
+START Script version 0.32
+TEXT LABLE REPEAT 나를 소개한다.@자신에 대해서 소개도 하지 않고 질문하는 건 큰 실례다.@또 다
+SPEAKING 이민수
+심리학과 3학년생인 이민수라고 합니다.
+괜찮다면 잠시 이야기를 나눠도 되지 않을까요?
+AUTO 1
+TEXT_END
+TEXT_END

@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{c1aab8fc-dbf5-4e97-9094-caf801e8a5c9}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{5d684b6d-d7ba-42d3-a45e-0b168a7bc1f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hangul">
+      <UniqueIdentifier>{87f7477e-5023-49fc-abe4-c3490572034a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="CustomUI.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\dxstdafx.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\DXUT.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\DXUTEffectMap.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\DXUTenum.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\DXUTgui.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\DXUTMesh.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\DXUTmisc.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\DXUTSettingsDlg.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\DXUTsound.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\hangul\CD3DSprite.h">
+      <Filter>hangul</Filter>
+    </ClInclude>
+    <ClInclude Include="..\hangul\d3dhangul.h">
+      <Filter>hangul</Filter>
+    </ClInclude>
+    <ClInclude Include="..\hangul\D3DHangulConverter.h">
+      <Filter>hangul</Filter>
+    </ClInclude>
+    <ClInclude Include="..\hangul\D3DHangulFont.h">
+      <Filter>hangul</Filter>
+    </ClInclude>
+    <ClInclude Include="..\hangul\D3DVertex.h">
+      <Filter>hangul</Filter>
+    </ClInclude>
+    <ClInclude Include="..\hangul\DebugOut.h">
+      <Filter>hangul</Filter>
+    </ClInclude>
+    <ClInclude Include="..\hangul\FastLib.h">
+      <Filter>hangul</Filter>
+    </ClInclude>
+    <ClInclude Include="..\hangul\FileEx.h">
+      <Filter>hangul</Filter>
+    </ClInclude>
+    <ClInclude Include="..\hangul\KogGen.h">
+      <Filter>hangul</Filter>
+    </ClInclude>
+    <ClInclude Include="..\hangul\MemoryLeak.h">
+      <Filter>hangul</Filter>
+    </ClInclude>
+    <ClInclude Include="..\hangul\SafeCast.h">
+      <Filter>hangul</Filter>
+    </ClInclude>
+    <ClInclude Include="..\hangul\SpriteEx.h">
+      <Filter>hangul</Filter>
+    </ClInclude>
+    <ClInclude Include="..\hangul\TEXTURETOOL.h">
+      <Filter>hangul</Filter>
+    </ClInclude>
+    <ClInclude Include="..\hangul\Todo.h">
+      <Filter>hangul</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="YUKINO.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="..\Common\dxstdafx.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\DXUT.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\DXUTEffectMap.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\DXUTenum.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\DXUTgui.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\DXUTMesh.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\DXUTmisc.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\DXUTSettingsDlg.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\DXUTsound.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\hangul\CD3DSprite.cpp">
+      <Filter>hangul</Filter>
+    </ClCompile>
+    <ClCompile Include="..\hangul\D3DHangul.cpp">
+      <Filter>hangul</Filter>
+    </ClCompile>
+    <ClCompile Include="..\hangul\D3DHangulConverter.cpp">
+      <Filter>hangul</Filter>
+    </ClCompile>
+    <ClCompile Include="..\hangul\D3DHangulFont.cpp">
+      <Filter>hangul</Filter>
+    </ClCompile>
+    <ClCompile Include="..\hangul\FileEx.cpp">
+      <Filter>hangul</Filter>
+    </ClCompile>
+    <ClCompile Include="..\hangul\KogGen.cpp">
+      <Filter>hangul</Filter>
+    </ClCompile>
+    <ClCompile Include="..\hangul\SpriteEx.cpp">
+      <Filter>hangul</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="CustomUI.manifest">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>

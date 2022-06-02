@@ -1,0 +1,26 @@
+#define FRONT_DOOR              1
+#define EXIR                    3
+#define FIRST_STAIR            4
+#define SECOND_STAIR               5
+#define THIRD_STAIR                6
+#define FORTH_STAIR            7
+#define OK_SANG            8
+#define FIRST_CLASS            9
+#define SECOND_CLASS              10
+#define THIRD_CLASS              12
+#define FORTH_CLASS              13
+#define MUSIC_CLASS            14
+#define  ART_CLASS           15
+#define IDC_RADIO1A             16
+#define IDC_RADIO1B             17
+#define IDC_RADIO1C             18
+#define IDC_RADIO2A             19
+#define IDC_RADIO2B             20
+#define IDC_RADIO2C             21
+#define IDC_LISTBOX             22
+#define IDC_LISTBOXM            23
+
+#define IDC_CONFIG              24
+#define IDC_EXIT                25
+#define WM_GRAPHNOTIFY  WM_USER+13
+#define WM_GRAPHNOTIFY2  WM_USER+14

@@ -1,0 +1,7 @@
+START Script2 version 0.32
+TEXT
+SPEAKING 이민수 0
+2층으로 올라갔구나...
+빨리 따라가보자.
+TEXT_END
+TEXT_END

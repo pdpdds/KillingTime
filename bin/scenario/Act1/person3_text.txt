@@ -1,0 +1,11 @@
+START Script version 0.32
+TEXT LABLE REPEAT 나를 소개한다.@자신에 대해서 소개도 하지 않고 질문하는 건 큰 실례다.@또 다
+SPEAKING 이민수
+안녕하세요. 저는 OO대학 심리학과에 재학중인 
+이민수라고 합니다.
+'기묘한 것을 찾는 클럽'에 대해 
+흥미가 있어서 왔습니다.
+좀 여쭤봐도 실례가 되지 않을런지요.
+ENABLE 4
+TEXT_END BARRIER
+TEXT_END

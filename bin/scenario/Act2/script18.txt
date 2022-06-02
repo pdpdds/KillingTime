@@ -1,0 +1,8 @@
+START Script2 version 0.32
+TEXT
+SPEAKING 이민수 0
+앗 발소리가 들린다.
+누구지...?
+따라가 보자.
+TEXT_END
+TEXT_END

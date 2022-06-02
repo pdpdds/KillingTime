@@ -1,0 +1,10 @@
+START Script2 version 0.32
+TEXT
+SPEAKING 이민수 0
+주위를 살펴보자....
+...........
+...........
+아 사람의 형체가 실습실 방향으로
+향하고 있는 것이 보인다.
+TEXT_END
+TEXT_END

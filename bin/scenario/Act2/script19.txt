@@ -1,0 +1,8 @@
+START Script2 version 0.32
+TEXT
+SPEAKING 이민수 0
+발소리가 1층계단쪽을 향하고 있는 것 같다.
+아 희미하지만 사람의 형체가 보인다.
+설마 유령은 아니겠지..?
+TEXT_END
+TEXT_END
