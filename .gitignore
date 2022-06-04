@@ -36,3 +36,4 @@ Debug
 *.bak
 Release
 x64
+*.pdb
