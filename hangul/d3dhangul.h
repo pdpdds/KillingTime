@@ -71,8 +71,7 @@ public:
 	/// @see    _OutHanXY(), SetWidthHeight(), SetColor()
 	inline void OutHanXY(int x, int y, LPCTSTR lpszText)
 	{
-
-		WCHAR wFileName[MAX_PATH];
+		
 		char buffer[_MAX_PATH];
 
 		WideCharToMultiByte(CP_ACP, NULL,

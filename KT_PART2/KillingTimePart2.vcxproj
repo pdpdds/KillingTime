@@ -147,6 +147,7 @@
     <ClInclude Include="..\hangul\SpriteEx.h" />
     <ClInclude Include="..\hangul\TEXTURETOOL.h" />
     <ClInclude Include="..\hangul\Todo.h" />
+    <ClInclude Include="constant.h" />
     <ClInclude Include="resource.h" />
   </ItemGroup>
   <ItemGroup>

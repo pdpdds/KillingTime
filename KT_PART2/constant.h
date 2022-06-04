@@ -83,8 +83,8 @@
 #define ITEM_KEY2      8 //실습실 열쇠
 #define ITEM_BREAD              9
 #define ITEM_MUNSEO      10
-#define ITEM_라이터             11
-#define ITEM_담배             12
+#define ITEM_LIGHTER             11
+#define ITEM_CIGARETE             12
 #define ITEM_KEY4             13
 #define ITEM_KEY3      14
 #define ITEM_PHYSICS              15

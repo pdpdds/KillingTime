@@ -95,6 +95,7 @@
     <ClInclude Include="..\hangul\Todo.h">
       <Filter>hangul</Filter>
     </ClInclude>
+    <ClInclude Include="constant.h" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="YUKINO.ico">

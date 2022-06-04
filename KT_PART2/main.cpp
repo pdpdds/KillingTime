@@ -992,7 +992,7 @@ HRESULT CALLBACK OnResetDevice(IDirect3DDevice9* pd3dDevice,
 		SAFE_RELEASE(g_pTexture_Scene[i]);
 	}
 
-	D3DCOLOR rt;
+	D3DCOLOR rt = 0;
 
 	for (i = 0; i < 20; i++)
 	{
@@ -5148,7 +5148,7 @@ bool Gnerate_Next_Scene(int i)
 
 void Item_Set()
 {
-	Scene[MAN_TOILET_IN1].item[Scene[MAN_TOILET_IN1].item_num] = ITEM_담배;
+	Scene[MAN_TOILET_IN1].item[Scene[MAN_TOILET_IN1].item_num] = ITEM_CIGARETE;
 	Scene[MAN_TOILET_IN1].item_num++;
 
 	Scene[MAN_TOILET_IN1].item[Scene[MAN_TOILET_IN1].item_num] = ITEM_CD;
@@ -5193,7 +5193,7 @@ void Item_Set()
 	Scene[THIRD_CLASS].item_num++;
 
 
-	Scene[THIRD_CLASS2].item[Scene[THIRD_CLASS2].item_num] = ITEM_라이터;
+	Scene[THIRD_CLASS2].item[Scene[THIRD_CLASS2].item_num] = ITEM_CIGARETE;
 	Scene[THIRD_CLASS2].item_num++;
 
 
@@ -5208,10 +5208,10 @@ void Item_Set()
 
 void Item_Set2()
 {
-	Item[ITEM_담배].rect.left = 156 * (g_width / 640);
-	Item[ITEM_담배].rect.top = 182 * (g_height / 480);
-	Item[ITEM_담배].rect.right = 176 * (g_width / 640);
-	Item[ITEM_담배].rect.bottom = 202 * (g_height / 480);
+	Item[ITEM_CIGARETE].rect.left = 156 * (g_width / 640);
+	Item[ITEM_CIGARETE].rect.top = 182 * (g_height / 480);
+	Item[ITEM_CIGARETE].rect.right = 176 * (g_width / 640);
+	Item[ITEM_CIGARETE].rect.bottom = 202 * (g_height / 480);
 
 	Item[ITEM_CD].rect.left = 475 * (g_width / 640);
 	Item[ITEM_CD].rect.top = 346 * (g_height / 480);
@@ -5278,10 +5278,10 @@ void Item_Set2()
 	Item[ITEM_CAMERA].rect.right = 328 * (g_width / 640);
 	Item[ITEM_CAMERA].rect.bottom = 234 * (g_height / 480);
 
-	Item[ITEM_라이터].rect.left = 308 * (g_width / 640);
-	Item[ITEM_라이터].rect.top = 214 * (g_height / 480);
-	Item[ITEM_라이터].rect.right = 328 * (g_width / 640);
-	Item[ITEM_라이터].rect.bottom = 234 * (g_height / 480);
+	Item[ITEM_CIGARETE].rect.left = 308 * (g_width / 640);
+	Item[ITEM_CIGARETE].rect.top = 214 * (g_height / 480);
+	Item[ITEM_CIGARETE].rect.right = 328 * (g_width / 640);
+	Item[ITEM_CIGARETE].rect.bottom = 234 * (g_height / 480);
 
 	Item[ITEM_PENCIL].rect.left = 338 * (g_width / 640);
 	Item[ITEM_PENCIL].rect.top = 216 * (g_height / 480);
@@ -5299,8 +5299,8 @@ void Item_Set2()
 	Item[ITEM_KEY2].Item_ID = ITEM_KEY2;
 	Item[ITEM_BREAD].Item_ID = ITEM_BREAD;
 	Item[ITEM_MUNSEO].Item_ID = ITEM_MUNSEO;
-	Item[ITEM_라이터].Item_ID = ITEM_라이터;
-	Item[ITEM_담배].Item_ID = ITEM_담배;
+	Item[ITEM_CIGARETE].Item_ID = ITEM_LIGHTER;
+	Item[ITEM_CIGARETE].Item_ID = ITEM_CIGARETE;
 	Item[ITEM_KEY4].Item_ID = ITEM_KEY4;
 	Item[ITEM_KEY3].Item_ID = ITEM_KEY3;
 	Item[ITEM_PHYSICS].Item_ID = ITEM_PHYSICS;

@@ -1502,7 +1502,7 @@ void RenderText()
 		int t = 0;
 		for (int i = 0; i < g_can_go; i++)
 		{
-			WCHAR wFileName[MAX_PATH];
+		
 			while (ACT1_LOC[t] == 0)
 			{
 				t++;
