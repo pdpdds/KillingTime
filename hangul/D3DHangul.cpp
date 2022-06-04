@@ -236,7 +236,7 @@ void CD3DHangul::_OutHanXY(int x, int y, char * lpszText)
     BYTE    b2;
     BYTE    b3;
     int     i = 0;	 
-	char buffer[MAX_PATH];
+	
 	//WideCharToMultiByte(CP_ACP, NULL,
 	//		lpszText, -1,
 	//		buffer, sizeof(buffer),

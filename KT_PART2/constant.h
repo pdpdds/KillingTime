@@ -89,7 +89,7 @@
 #define ITEM_KEY3      14
 #define ITEM_PHYSICS              15
 #define ITEM_GLASS      16
-#define ITEM_유리거울      17
+#define ITEM_MIRROR     17
 
 
 #define SCRIPT_READING             0

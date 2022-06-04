@@ -1907,11 +1907,11 @@ void CALLBACK KeyboardProc(UINT nChar, bool bKeyDown, bool bAltDown)
 							{
 								Scene[g_Hero.location].item_num = 1;
 								jklp = 1;
-								Item[ITEM_유리거울].rect.left = 490 * (g_width / 640);
-								Item[ITEM_유리거울].rect.top = 375 * (g_height / 480);
-								Item[ITEM_유리거울].rect.right = 510 * (g_width / 640);
-								Item[ITEM_유리거울].rect.bottom = 395 * (g_height / 480);
-								Scene[g_Hero.location].item[0] = ITEM_유리거울;
+								Item[ITEM_MIRROR].rect.left = 490 * (g_width / 640);
+								Item[ITEM_MIRROR].rect.top = 375 * (g_height / 480);
+								Item[ITEM_MIRROR].rect.right = 510 * (g_width / 640);
+								Item[ITEM_MIRROR].rect.bottom = 395 * (g_height / 480);
+								Scene[g_Hero.location].item[0] = ITEM_MIRROR;
 								g_Global_State.script_copy = false;
 								Init_Script_Var();
 								g_Hero.game_mode = MENU_DISPLAY_MODE;
@@ -5044,7 +5044,7 @@ bool Gnerate_Next_Scene(int i)
 			g_Global_State.Date_Display = true;
 			for (i = 0; i < g_Hero.item_num; i++)
 			{
-				if (g_Hero.item[i] == ITEM_유리거울)
+				if (g_Hero.item[i] == ITEM_MIRROR)
 					o = 1;
 				if (g_Hero.item[i] == ITEM_KNIFE)
 					p = 1;
@@ -5201,7 +5201,7 @@ void Item_Set()
 	Scene[THIRD_CLASS2].item_num++;
 
 
-	Scene[MUSIC_CLASS].item[Scene[MUSIC_CLASS].item_num] = ITEM_유리거울;
+	Scene[MUSIC_CLASS].item[Scene[MUSIC_CLASS].item_num] = ITEM_MIRROR;
 	Scene[MUSIC_CLASS].item_num++;
 
 }
@@ -5305,29 +5305,27 @@ void Item_Set2()
 	Item[ITEM_KEY3].Item_ID = ITEM_KEY3;
 	Item[ITEM_PHYSICS].Item_ID = ITEM_PHYSICS;
 	Item[ITEM_GLASS].Item_ID = ITEM_GLASS;
+
 	if (jklp == 0)
-		Item[ITEM_유리거울].rect.left = 82 * (g_width / 640);
-	Item[ITEM_유리거울].rect.top = 394 * (g_height / 480);
-	Item[ITEM_유리거울].rect.right = 102 * (g_width / 640);
-	Item[ITEM_유리거울].rect.bottom = 414 * (g_height / 480);
+		Item[ITEM_MIRROR].rect.left = 82 * (g_width / 640);
+	Item[ITEM_MIRROR].rect.top = 394 * (g_height / 480);
+	Item[ITEM_MIRROR].rect.right = 102 * (g_width / 640);
+	Item[ITEM_MIRROR].rect.bottom = 414 * (g_height / 480);
 }
 
 
 
 bool LoadTexture(LPDIRECT3DTEXTURE9* ppTexture, LPDIRECT3DVERTEXBUFFER9& Test_Buffer, LPCTSTR strFileName, bool bUseTransparency, D3DCOLOR TransparencyColor)
-
 {
-
 	D3DCOLOR transparencycolor;
 
-	if (bUseTransparency)  transparencycolor = TransparencyColor | 0xff000000;
-
-	else                    transparencycolor = 0;
-
+	if (bUseTransparency)  
+		transparencycolor = TransparencyColor | 0xff000000;
+	else                    
+		transparencycolor = 0;
 
 
 	// Create the texture using D3DX
-
 	// 투명색에 해당하는 색상은 알파값을 0으로 만들어 준다.
 
 	if (FAILED(D3DXCreateTextureFromFileEx(
@@ -5343,14 +5341,10 @@ bool LoadTexture(LPDIRECT3DTEXTURE9* ppTexture, LPDIRECT3DVERTEXBUFFER9& Test_Bu
 		D3DX_FILTER_TRIANGLE | D3DX_FILTER_MIRROR,
 		transparencycolor,
 		NULL, NULL,
-		ppTexture)))
-	{
-		return false;
-	}
+		ppTexture)))	
+		return false;	
 
-	//else
-
-
+	
 	if (Test_Buffer == NULL)
 	{
 		g_pd3dDevice->CreateVertexBuffer(
@@ -5360,13 +5354,9 @@ bool LoadTexture(LPDIRECT3DTEXTURE9* ppTexture, LPDIRECT3DVERTEXBUFFER9& Test_Bu
 			D3DPOOL_MANAGED,
 			&Test_Buffer,
 			0);
-	}
+	}	
 
-
-
-	Test_Buffer->Unlock();
-
-	{ return true; }
+	return true;
 
 }
 bool Create_3DSprite(IDirect3DDevice9* pd3dDevice, LPDIRECT3DTEXTURE9& Test_Texture, LPDIRECT3DVERTEXBUFFER9& Test_Buffer, LPCTSTR lpstr, float x, float y, float width, float height, bool bUseTransparency, D3DCOLOR TransparencyColor)
